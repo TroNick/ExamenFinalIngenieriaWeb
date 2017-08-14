@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Proyecto.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <link href="estilos.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="logo">
+        <img class="logob" src="biblioteca.jpg" />
+             Biblioteca de MDY
+        
+        </div>
+    <div class="nav">
+        <table style="width:100%" border="1">
+            <tr>
+                <td> <a href="gestionusuarios.aspx">Gestion de Usuarios </a>  </td>
+                <td> <a href="gestionlibros.aspx">Gestión de Libros </a>  </td>
+                <td><a href="prestamosdevolucion.aspx"> Prestamo/ Devolucion </a> </td>
+                <td><a href="consultas.aspx"> Consultas</a> </td>
+               
+            </tr>
+        </table>
+    </div>
+        
+    <div class="slide">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <br />
+
+        </asp:ContentPlaceHolder>
+    </div>
+
+        </div>
+    <div class="section">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+        <div class="footer">
+            Derechos Reservados
+    </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿.logo {
+background-color:greenyellow;
+text-align:center;
+font-size:50px;
+color:red;
+height:70px;
+width:100%;
+}
+.nav {
+background-color:gold;
+text-align:center;
+color:green;
+}
+
+.slide {
+background-color:greenyellow;
+float:left;
+width:17%;
+height:500px;
+border:solid;
+
+}
+
+.section {
+background-color:greenyellow;
+overflow:auto;
+float:left;
+width:76.5%;
+height:500px;
+border:solid;
+}
+.logob{
+    width: 100px;
+    height 100px;
+}
+
+.footer{
+background-color:greenyellow;
+overflow:auto;
+float:left;
+width: 100%;
+height:50px;
+border:solid;
+}
